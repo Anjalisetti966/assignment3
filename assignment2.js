@@ -5,6 +5,13 @@ one could cause a bug.*/
 /*var is a global or function scope in it can be reassigned and redeclared in JavaScript
 let is blockscope in can be redeclared  but cannot be reintilised in JavaScript
 const is also blockscope cannot be redeclared and reassigned in JavaScript*/
+// let mess= "Initial message";
+
+// if (true) {
+//   var mess= "Changed message"; // Intentionally using var here.
+// }
+
+// console.log(mess); // Output: "Changed message"
 
 
 // 2. JavaScript has primitive and reference data types. List three of each type and
@@ -15,6 +22,7 @@ const is also blockscope cannot be redeclared and reassigned in JavaScript*/
 // number-numbers are numeric value (eg 123),
 // boolean-true/false
 // when primitive datatypes are assigned to a new variable, if one variable changes ,it don't effect or change other variable 
+// variables sores values in different memory address
 let m="anjali";
 let n=m;
  m="sai";
@@ -31,7 +39,7 @@ let n=m;
 // function function name(){}
 // array-it is collection of different types of data [1,"name",true]
 // when we assign reference datatype to a new variable, if one variable changes then the 
-// other variable value also changes beacuse of the memory location
+// other variable value also changes beacuse of the same memory location
 
 var v=[1,2,3];
 var w=v;
@@ -44,7 +52,9 @@ v=[7,6,0]
 // let result = 3 + 4 * 5 - 6 / 2 && 10 || 5;
 // Explain the order of operations that leads to this result.
 
-let result = 3 + 4 * 5 - 6 / 2 && 10 || 5; //(&& consider 2nd operand while || consider 1st operand)
+let result = 3 + 4 * 5 - 6 / 2 && 10 || 5; //(&& consider 2nd operand bcz 
+// first operand is true and second one is also true  while || consider 1st operand bcz 
+// first operand is true)
 // output: 10
 
 // 4) Explain the difference between null and undefined in JavaScript. How are
