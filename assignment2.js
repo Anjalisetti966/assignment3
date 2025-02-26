@@ -8,10 +8,19 @@ const is also blockscope cannot be redeclared and reassigned in JavaScript*/
 // let mess= "Initial message";
 
 // if (true) {
-//   var mess= "Changed message"; // Intentionally using var here.
+//   var mess= "Changed message"; 
 // }
+// console.log(mess); // Output: 
+// here var over writes the message of let 
 
-// console.log(mess); // Output: "Changed message"
+// this is the debug program
+// let mess="initial message";
+// if (true) {
+//     let mess="changed message"
+    
+// }
+// console.log(mess);
+
 
 
 // 2. JavaScript has primitive and reference data types. List three of each type and
