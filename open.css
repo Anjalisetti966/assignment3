@@ -1,0 +1,160 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+body{
+   background-image: url("cloud.jpeg");
+   background-repeat: no-repeat;
+  
+   align-items: center;
+   object-fit: cover;
+}
+.main{
+   display: flex;
+   flex-direction: row;
+}
+.item1{
+   color: orange;
+   height: 80px;
+   width: 40px;
+   padding-right: 70px;
+   padding-top: 30px;
+   font-family: Arial;
+   font-weight: bold;
+}
+.item{
+   text-decoration: none;
+   padding-left: 80px;
+   padding-top: 30px;
+   font-family: Arial;
+   font-weight: bold;
+   color: white;
+}<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="flex.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <header> Task <span class="colour">List</span></header>
+      <div class="cont">
+         <div> <a href="./fle2.html" class="child1"><i class="fa-solid fa-circle-plus fa-2x" style="color: #74c0fc;"></i><span class="points">Add New Task</span></a></div>
+      <div class="child">
+        <p><span class="pan">trip to paris</span></p><hr>
+       <p><i class="fa-solid fa-square-check"></i> <span class="para">visit church</span></p>
+      <p><i class="fa-regular fa-square" ></i><span>shopping</span></p>
+      </div>
+      <div class="child"> 
+         <p><span class="pan">My To Do List</span></p><hr>
+         <p><i class="fa-solid fa-square-check"> </i> <span class="para">visit super market</span></p>
+        <p><i class="fa-regular fa-square" style="color:#F7F7F7; border: 1px #EDEDED; width: 20px; "></i><span>buy vegetables </span></p>
+      </div>
+      <div class="child">
+         <p><span class="pan">Movies i will watch</span></p><hr>
+         <p><i class="fa-solid fa-square-check"> </i> <span class="para">strange things 4</span></p>
+       <span class="point"> <i class="fa-regular fa-square"></i><span> avenger</span></span>
+      </div>
+      <div class="child">
+        <p> <span>daily morning routine for.....</span></p><hr>
+      <p class="para"> wake up at 6:00 AM</p>
+      <p>sleep at 10pm</p>
+      </div>
+   <div class="child">
+
+     <p><span>books to read</span></p><hr>
+    <span class="point"> <input type="checkbox">books to read</span>
+   <p class="para">design of everyday</p>
+   <p>aichemist</p>
+   </div>
+</div>
+</body>
+</html>
+
+
+
+*{
+   margin: 0;
+
+padding: 0;
+}body{
+   border: 1px solid black;
+}
+.colour{
+ color: #00A5EC;
+}
+.all{
+   display: flex;
+   justify-content: center;
+}
+header{
+  margin-left: 50px;
+  font-size: 35px;
+  margin-top: 10px;
+  width: 600px;
+  background-color: #FFFFFF;
+
+}
+.pan{
+   color:#00A5EC;
+   font-size: 20px;
+   
+
+}
+.cont{
+   display: flex;
+   flex-wrap: wrap;
+   justify-self: center;
+   width: 1000px;
+   background-color: #F7F7F7;
+   
+}
+.child1{
+   display: flex;
+   justify-items: center;
+   margin-left:540px;
+   text-decoration: none;
+   font-size: 20px;
+   margin-top: 20px;
+   color: black;
+   
+}
+.child{
+   background-color:#FFFFFF;
+   padding-bottom: 20px;
+   margin-left: 10px;
+   margin-top: 15px;
+   margin-bottom: 20px;
+   height: 250px;
+   width: 230px;
+   cursor: pointer;
+}
+.child:hover{
+   box-shadow: 5px 5px 5px rgb(209, 206, 206);
+}
+span{
+   margin-left: 5px;
+}
+p{
+  padding: 10px;
+  margin-left: 10px;
+  color: #424242;
+}
+.point{
+   
+   margin-left: 25px;
+
+}
+.points{
+   margin-top: 10px;
+   margin-left: 15px;
+   
+  
+   
+}
+.para{
+   text-decoration: line-through;
+   color:#C2C2C2;
+}

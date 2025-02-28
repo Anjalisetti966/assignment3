@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Main container as column */
+    min-height: 100vh; /* Make it fill viewport height */
+  }
+  
+header{
+    background-color: rgb(63, 61, 61);
+    text-align: center;
+    padding: 30px;
+    
+    box-sizing: border-box;
+    position: relative;
+     
+} 
+.parent{
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+     gap: 30px;
+    padding: 20px;
+    background-color: rgb(83, 81, 81);
+    position: relative;
+   
+    font-family: Arial, Helvetica, sans-serif;}
+  
+.highlight{
+    color: white;
+}
+
+ a:hover{
+   background-color: red;
+    font-size: 18px;
+
+}
+a:visited{
+    color: green;
+}   
+
+
+
+.containers{
+    display: flex; 
+    background-color: rgb(241, 234, 234);
+  }
+
+
+
+.sidenavbar{
+   background-color:rgb(240, 187, 89);
+     padding-top: 10px;
+     padding-bottom: 80px;
+     padding-right: 10px;
+     padding-left: 20px;
+    margin-top: 25px;
+    height: 90px;
+   
+   
+}
+.child1{
+    padding: 20px;
+    
+    
+}
+.sidenavbar li{
+    font-size: 23px;
+}
+#tage{
+    
+    font-size: 25px;
+}
+
+.scrollbar{
+    position: fixed;
+      overflow: auto;
+        overflow-y: auto;
+        overflow-x: hidden;
+       height: 15vh;
+        width: 650px;
+        border: 2px solid #ccc;
+       color:black ;
+   
+}
+.p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#box{
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    position:relative;
+  left: 40px;
+   bottom: 27px;
+   z-index: 3;
+}
+#box2{
+    width: 80px;
+    height: 80px;
+    background-color: blue;
+    position: relative;
+    left: 80px;
+    bottom: 80px;
+    z-index: 3; 
+     
+}
+.parent> a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    
+ }
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }

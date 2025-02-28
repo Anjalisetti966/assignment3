@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+   
+<body>
+    <fieldset>
+        <legend>REGISTER FORM</legend>
+          
+   <form >
+    
+<!-- action attribute is used to show the file or path where the result will be stored action="formdata.js" -->
+ <!-- id is used for to highlit box by touching label name in ouptput page -->
+ <label for="name"> first name:</label>
+    <input type="text" name="name" id="name" placeholder="enter name" required>
+    <br><br>
+    <label for="last name"> last name</label>
+    <input type="text" name="last name" id="lastname" placeholder="enter last name" required>
+    <br><br>
+    <label for="email">email</label>
+    <input type="email" name="email" id="email" placeholder="enter your email id" required>
+    <br><br>
+    <label for="password">password:</label>
+    <input type="password" name="password" id="password" placeholder="enter your password" required;>
+    <br><br>
+    <label for="radio">gender</label><br><br>
+ <div style="margin-left: 50px;">
+    <input type="radio" name="gender" id="radio"> male <br>
+    <input type="radio" name="gender" id="radio"> female <br>
+    <input type="radio" name="gender" id="radio"> other
+</div>
+    <br>
+   
+    <label for="age">age</label>
+    <input type="number">
+    <br><br>
+    <!-- defines image as a submit button -->
+
+    <label for="checkbox">prefernce</label>
+    <br><br>
+<div style="margin-left: 50px;">
+    <input type="checkbox" name="language" id="checkbox">painting
+    <br>
+    <input type="checkbox" name="language" id="checkbox">oil painting
+    <br>
+    <input type="checkbox" name="language" id="checkbox">water painting
+    <br>
+    <input type="checkbox" name="language" id="checkbox">arcylic painting
+</div>
+<br><br>
+<label for="select occupation">select occupation:</label>
+<select name="age" id="age">
+    <option value="student">student</option>
+    <option value="job">job</option>
+    <option value="retaired">retired</option>
+</select>
+<br>
+
+    <br>
+    <label for="submit">submit</label>
+    <input type="submit" name="submit" id="submit ">
+<span style="margin-left: 20px;">
+    <label for="reset">reset</label>
+    <input type="reset" name="reset" id="reset">
+</span>
+<br><br>
+<label for="bio">bio</label><br>
+<textarea name="textarea" id="text area" >enter something here </textarea>
+   </form>
+   
+
+  
+</body>
+</fieldset>
+</html>
